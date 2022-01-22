@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "846764507841",
+    "project_id": "lem-backend-api-staging",
+    "storage_bucket": "lem-backend-api-staging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846764507841:android:5dc5b435b900bf566e8a40",
+        "android_client_info": {
+          "package_name": "space.amalkadji.students_advocation_mobile_uii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846764507841-51ntt49l59l4qmgn613qiuom9i459t4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "space.amalkadji.students_advocation_mobile_uii",
+            "certificate_hash": "9a4bad91fcb4f862f61cca19c9e4c6da6525fa15"
+          }
+        },
+        {
+          "client_id": "846764507841-g9em1fued201vcb5d1csalgrpb0jq2p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDninvlxtopAFmetI4ot0pfitU82sErfDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846764507841-g9em1fued201vcb5d1csalgrpb0jq2p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
