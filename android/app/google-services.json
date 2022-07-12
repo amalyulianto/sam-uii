@@ -7,17 +7,25 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:846764507841:android:5dc5b435b900bf566e8a40",
+        "mobilesdk_app_id": "1:846764507841:android:e145a1ff2cb1f9ac6e8a40",
         "android_client_info": {
-          "package_name": "space.amalkadji.students_advocation_mobile_uii"
+          "package_name": "org.studentadvocacyuii.students_advocation_mobile_uii"
         }
       },
       "oauth_client": [
         {
-          "client_id": "846764507841-51ntt49l59l4qmgn613qiuom9i459t4q.apps.googleusercontent.com",
+          "client_id": "846764507841-gflq85cd4o749gviqr5r3imajmgmo2is.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "space.amalkadji.students_advocation_mobile_uii",
+            "package_name": "org.studentadvocacyuii.students_advocation_mobile_uii",
+            "certificate_hash": "e8e970e3899512f0051fb76d22cd3b8b3b9aa496"
+          }
+        },
+        {
+          "client_id": "846764507841-vhq7dtj69pjn72an2e2toctm515gn6tt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.studentadvocacyuii.students_advocation_mobile_uii",
             "certificate_hash": "9a4bad91fcb4f862f61cca19c9e4c6da6525fa15"
           }
         },

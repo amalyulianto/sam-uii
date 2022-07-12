@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sam_uii/providers/response_provider.dart';
+import 'package:sam_uii/widgets/fun_fact_card.dart';
 import '../models/user_model.dart';
 import '../pages/menu_pages/aduan_pages/aduan_page.dart';
 import '../pages/menu_pages/aduan_pages/evaluasi_aduan_page.dart';
@@ -51,11 +52,15 @@ class HomePage extends StatelessWidget {
                 color: Colors.black,
               ),
               onPressed: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => NotificationPage(),
-                    ));
+                ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                  content: Text('Fitur segera datang!'),
+                  backgroundColor: kColorRed,
+                ));
+                // Navigator.push(
+                //     context,
+                //     MaterialPageRoute(
+                //       builder: (context) => NotificationPage(),
+                //     ));
               },
             ),
           ],
@@ -182,9 +187,12 @@ class HomePage extends StatelessWidget {
                     SizedBox(
                       width: 30,
                     ),
-                    HighlightWidget(),
-                    HighlightWidget(),
-                    HighlightWidget(),
+                    Container(
+                      child: Text(
+                        'Fitur segera datang!',
+                        style: textMain.copyWith(color: Colors.white),
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -204,7 +212,7 @@ class HomePage extends StatelessWidget {
               SizedBox(
                 height: 12,
               ),
-              AduanCard(),
+              FunFactCard(),
               SizedBox(
                 height: 24,
               ),

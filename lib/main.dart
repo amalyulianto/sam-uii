@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:sam_uii/pages/auth_pages/sign_in_page.dart';
 import 'package:sam_uii/providers/complaint_provider.dart';
 import 'package:sam_uii/providers/response_provider.dart';
 
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         )
       ],
       child: MaterialApp(
-        home: SplashScreen(),
+        home: SignInPage(),
         debugShowCheckedModeBanner: false,
       ),
     );

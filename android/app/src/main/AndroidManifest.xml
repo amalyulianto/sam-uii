@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="space.amalkadji.students_advocation_mobile_uii">
+    package="org.studentadvocacyuii.students_advocation_mobile_uii">
    <application
         android:label="SAM UII"
         android:icon="@mipmap/ic_launcher">
